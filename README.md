@@ -2,7 +2,7 @@
 
 A personal portfolio built to look and behave like a Windows 11 desktop — draggable/resizable windows, a taskbar, a Start menu, desktop icons, toast notifications, and a working terminal easter egg. Every "app" (Profile, Projects, Resume, Skills, Contact, Terminal) is a real window you can open, move, minimize, maximize, and close.
 
-Live at: _add your deployed URL here once it's live_
+Live at: [my-portfolio-os-woad.vercel.app](https://my-portfolio-os-woad.vercel.app)
 
 ## Features
 

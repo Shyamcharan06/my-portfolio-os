@@ -19,6 +19,7 @@ export const projects: Project[] = [
       "A personal portfolio built to look and behave like a Windows 11 desktop: draggable/resizable/maximizable windows, a taskbar with a Start menu and system tray, desktop icons with real select/hover/activate states, toast notifications, and a working terminal with real commands. Every section (Profile, Projects, Resume, Skills, Contact) is a distinct app window rather than a scrolling page.",
     tools: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand", "Motion"],
     githubUrl: "https://github.com/Shyamcharan06/my-portfolio-os",
+    liveUrl: "https://my-portfolio-os-woad.vercel.app",
     featured: true,
     accent: "from-blue-500 to-indigo-600",
   },
