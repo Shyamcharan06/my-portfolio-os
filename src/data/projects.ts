@@ -11,6 +11,18 @@ export const categoryLabels: Record<ProjectCategory, string> = {
 // Edit this file to update your real content — no other files need to change.
 export const projects: Project[] = [
   {
+    id: "portfolio-os",
+    title: "Portfolio OS",
+    category: "ui-ux",
+    summary: "This very site — a Windows 11-style interactive desktop portfolio.",
+    description:
+      "A personal portfolio built to look and behave like a Windows 11 desktop: draggable/resizable/maximizable windows, a taskbar with a Start menu and system tray, desktop icons with real select/hover/activate states, toast notifications, and a working terminal with real commands. Every section (Profile, Projects, Resume, Skills, Contact) is a distinct app window rather than a scrolling page.",
+    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand", "Motion"],
+    githubUrl: "https://github.com/Shyamcharan06/my-portfolio-os",
+    featured: true,
+    accent: "from-blue-500 to-indigo-600",
+  },
+  {
     id: "meme-coin-trading-bot",
     title: "Meme Coin Trading Bot",
     category: "ai",
