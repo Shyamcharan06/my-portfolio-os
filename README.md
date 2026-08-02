@@ -66,6 +66,3 @@ src/
   types/               # Shared TypeScript types
 ```
 
-## Deployment
-
-This is a standard Next.js app — deploy it anywhere Next.js runs (e.g. [Vercel](https://vercel.com/new)). No environment variables are required unless you wire the contact form ([src/app/api/contact/route.ts](src/app/api/contact/route.ts)) to a real email/notification service.
