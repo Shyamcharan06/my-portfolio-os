@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
+/*
+ * No dark-mode media query on purpose: the desktop shell (wallpaper, taskbar,
+ * window chrome) is intentionally always-dark and window content areas are
+ * intentionally always-light, regardless of OS theme preference — this is a
+ * bespoke "Windows desktop" look, not a theme-adaptive site.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0f172a;
+  --foreground: #f4f4f5;
+  --accent: #2563eb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.25) transparent;
 }
