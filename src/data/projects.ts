@@ -93,4 +93,27 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/Shyamcharan06/algo-neon",
     accent: "from-rose-500 to-pink-600",
   },
+  {
+    id: "semantic-router-rs",
+    title: "Semantic Router (Rust)",
+    category: "ai",
+    summary: "A Mixture-of-Models LLM router in Rust with 94% routing accuracy.",
+    description:
+      "A from-scratch \"Mixture-of-Models\" LLM router written in Rust: it embeds an incoming chat prompt with a local Candle BERT/MiniLM model, routes it to whichever backend model best handles that task category via embedding-similarity or a trained linear classifier (94% vs. 88% held-out accuracy), and proxies the request onward. Ships with PII redaction/blocking, jailbreak detection, a semantic response cache, SSE streaming passthrough, OpenTelemetry tracing, and a Kubernetes deploy — all as a single Rust binary with no Python or GPU required at inference time. Inspired by vllm-project/semantic-router.",
+    tools: ["Rust", "Candle", "BERT/MiniLM", "OpenTelemetry", "Kubernetes"],
+    githubUrl: "https://github.com/Shyamcharan06/semantic-router-rs",
+    featured: true,
+    accent: "from-orange-500 to-red-600",
+  },
+  {
+    id: "relief-convoy",
+    title: "Relief Convoy",
+    category: "other",
+    summary: "A disaster-relief logistics planner built for a DAA course project.",
+    description:
+      "A disaster-relief logistics planner: given a manifest of relief resources and a road network between a warehouse and relief sites, it splits resources into unsplittable and splittable classes and solves them with 0/1 Knapsack and Fractional Knapsack (full DP-table / greedy-fill trace), finds the optimal delivery loop with TSP solved via dynamic programming, lets you block roads to simulate floods, landslides, or bridge collapses and re-solves the route live, and reports resource, route, and algorithm-performance statistics with a printable mission report. Static site — everything runs client-side in a single HTML file.",
+    tools: ["JavaScript", "HTML", "Dynamic Programming", "Knapsack", "TSP"],
+    githubUrl: "https://github.com/Shyamcharan06/relief-convoy",
+    accent: "from-teal-500 to-cyan-600",
+  },
 ];
